@@ -54,6 +54,28 @@ const quizz = [
         ],
         "correct": "Punika",
         "tip": 'Le niveau 1302 de puissance est atteint sur le continent "Punika".'
+    },
+    {
+        "number": 5,
+        "question": "Comment s'appelle la protectrice du sanctuaire ?",
+        "answers": [
+            "Béatrice",
+            "Evelyn",
+            "Rika"
+        ],
+        "correct": "Béatrice",
+        "tip": 'Date d\'anniversaire : 1er Octobre'
+    },
+    {
+        "number": 6,
+        "question": "Quel chant permet de révéler les lieux cachés / choses invisibles ?",
+        "answers": [
+            "Chant de résonance",
+            "Chant du coeur",
+            "Chant de réminescence"
+        ],
+        "correct": "Chant de résonance",
+        "tip": 'Pour obtenir ce chant, vous allez devoir vous rendre sur une île en forme de bateau ! Elle se nomme « Peyto » et se trouve à l\'ouest d\'Anikka'
     }
 ];
 
