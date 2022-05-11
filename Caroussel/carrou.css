@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Lost";
+    src: url("../EndOfAnthropocene-Oz23.ttf") format("woff2"),
+    url("../EndOfAnthropocene-Oz23.ttf") format("woff");
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("https://images.ctfassets.net/umhrp0op95v1/3uKxpqws73m0VRKwmOk3WA/2c14d34e4080b0d226d002bc2cccade6/Lost_Ark_Key_Art_1200x630.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul, li {
+    list-style: none;
+}
+
+#carrousel{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#carrousel ul li{
+    position: absolute;
+    z-index: 0;
+}
+
+#carrousel img {
+    width: 700px;
+    height: 400px;
+}
+
+#carrousel p {
+    margin-top: -50px;
+    font-family: Lost;
+    font-size: 60px;
+    display: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: purple 10px 10px 10px ;
+    letter-spacing: 2px;
+
+}
+
+i {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+}
+
+i:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+.prevBtn {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.nextBtn {
+    position: absolute;
+    top: 200px;
+    left: calc(700px - 40px);
+    transform: translateY(-50%);
+}
+
+.bubbles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubbles a {
+    display: block;
+    margin: 30px 10px auto;
+    width: 30px;
+    height: 20px;
+    background-image: url("https://external-preview.redd.it/ODEoHFKQfD4C2DnKS1FpoQMwLSwYb2Okej2E-3ZOsKQ.jpg?width=640&crop=smart&auto=webp&s=767d9cbb0f6771268aefd6fc63dea6841133606f");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}

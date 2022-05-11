@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Lost";
+    src: url("../EndOfAnthropocene-Oz23.ttf") format("woff2"),
+    url("../EndOfAnthropocene-Oz23.ttf") format("woff");
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: Lost;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav .title {
+    width: 30%;
+}
+nav li {
+    list-style: none;
+    padding: 1rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.letter {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: lightblue;
+    padding: 1px 3px;
+}
+
+input:checked + .letter {
+    background-color: slateblue;
+}
+
+input {
+    display: none;
+}
+.labelQ:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tip {
+    display: none;
+}
+
+button {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    line-height: none;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-color: lightgreen;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:disabled {
+    background-color: grey;
+}
+button:disabled a {
+    pointer-events: none;
+}
+
+#score {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
