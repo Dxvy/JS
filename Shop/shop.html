@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+<div class="container text-center">
+    <h1>Ma boutique !</h1>
+    <div class="row">
+        <div class="col-xs-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Les produits
+                </div>
+                <div class="panel-body">
+                    <div class="col-xs-4">
+                        <div class="panel panel-default" id="produit-1">
+                            <div class="panel-body text-center">
+                                <h3>Marvel Displate</h3>
+                                <img id="img1" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR16CBT3H48bxbjMsOry6uw4pG7OgOAIQt1qF9IACcS5WpOlyJyF_0PpQs7HoBCXGZqG76kdOw0eSxqaXYWaFPmN7G8T6JB2HV8RUXLByM&usqp=CAE" alt="" class="img-responsive" />
+                                <p>Lot Displate a l'effigie de Marvel <br> 2 pour le prix d'1</p>
+                                <span class="prix">34.90 €</span>
+                                <a href="#!" class="btn btn-block btn-primary add" data-id="1">
+                                    Ajouter
+                                </a>
+                                <input type="hidden" id="prix-1" value="34.90" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="panel panel-default" id="produit-2">
+                            <div class="panel-body text-center">
+                                <h3>Spy Displate</h3>
+                                <img id="img2" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTXEgi7eKkm5AcIXLaKDgl80WjCl2WJ2p7RABhvsjqEtIdyEC_EsrODTsP6CO06JToJD88MT5IYENjd1kFr5jLqPAEuOJnRe7St3VZedbZq&usqp=CAE" alt="" class="img-responsive" />
+                                <p>Lot Displate a l'effigie d'espions <br> 2 pour le prix d'1</p>
+                                <span class="prix">49.99 €</span>
+                                <a href="#!" class="btn btn-block btn-primary add" data-id="2">
+                                    Ajouter
+                                </a>
+                                <input type="hidden" id="prix-2" value="49.99" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="panel panel-default" id="produit-3">
+                            <div class="panel-body text-center">
+                                <h3>DC Displate</h3>
+                                <img id="img3" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTky-GVPvXjUUJFq8j_PacCOz1je_EJyemxURBOjfWQMOu7MoaNJq-eloJESGdjzE2tkEZPAMalxgNxFrRrYSKr8uBBOzamIXe0XNkYoj35sUzkB24gcPSF&usqp=CAE" alt="" class="img-responsive" />
+                                <p>Lot Displate a l'effigie de DC <br> 2 pour le prix d'1</p>
+                                <span class="prix">64.51 €</span>
+                                <a href="#!" class="btn btn-block btn-primary add" data-id="3">
+                                    Ajouter
+                                </a>
+                                <input type="hidden" id="prix-3" value="64.51" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Mon panier
+                </div>
+                <div class="panel-body text-left">
+                    <div id="cart">
+
+                    </div>
+                    <div class="clearfix">&nbsp;</div>
+                    <a href="#" onclick="alert('Ok, on va commander !')" class="btn btn-success btn-block" id="order">Commander !</a>
+                    <a href="#!" class="btn btn-block btn-primary remove" id="disorder" data-id="3">
+                        Retirer dernier article
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="shop.js"></script>
+</body>
+</html>

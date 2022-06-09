@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="jackpot.css">
+    <title>Slot Machine</title>
+</head>
+
+<body>
+<div class="coffee-machine">
+    <h1>Slot Machine</h1>
+    <p id="token" value="500">
+        JETONS : 500
+    </p>
+
+    <p class="txt">Feeling Lucky?</p>
+
+    <ul class="slots">
+        <li class="slots__reel"></li>
+        <li class="slots__reel"></li>
+        <li class="slots__reel"></li>
+    </ul>
+
+    <a class="spin-cta tk10">10
+        <img src="token.png" alt="">
+        <input type="hidden" id="prix-1" value="10" />
+    </a>
+    <a class="spin-cta tk50">50
+        <img src="token.png" alt="">
+        <input type="hidden" id="prix-2" value="50" />
+    </a>
+    <a class="spin-cta tk200">200
+        <img src="token.png" alt="">
+        <input type="hidden" id="prix-3" value="200" />
+    </a>
+
+
+</div>
+<!-- end: coffee-machine -->
+</body>
+<script src="jackpot.js"></script>
+</html>
